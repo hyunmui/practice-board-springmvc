@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="practice-board-springmvc" />
+        <module name="practice-board-entity" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="practice-board-entity" target="1.8" />
+      <module name="practice-board-springmvc" target="1.8" />
+      <module name="practice-springmvc-board" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="practice-board-entity" options="-Xlint:all" />
+      <module name="practice-board-springmvc" options="-Xlint:all" />
+    </option>
+  </component>
+</project>
